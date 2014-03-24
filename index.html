@@ -1,20 +1,13 @@
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-	
-	<script src="http://connect.soundcloud.com/sdk.js"></script>
-	<script>
-	SC.initialize({
-	client_id: "e517d415cdd1bf3053a497011cbf2339",
-	redirect_uri: "http://example.com/callback.html",
-	}); 
+---
+layout: default
+title: Your New Jekyll Site
+---
 
-
-	SC.get("/rodrigobueno/loveee", {limit: 1}, function(tracks){
-	  console.log("Latest track: " + tracks[0].title);
-	});
-	</script>
-</body>
-</html>
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
