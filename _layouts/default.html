@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/sc-player-minimal.css" type="text/css" />
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/foundation.css">
@@ -22,45 +23,26 @@
         </ul>
         <section class="top-bar-section">
           <ul class="right">
-            <li class="has-dropdown not-click">
-              <a href="noticias.html" class="">Shows</a>
-              <ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li>
-                <li><a href="http://foundation.zurb.com/learn/features.html">Músicas</a></li>
-                <li><a href="http://foundation.zurb.com/learn/faq.html">Downloads</a></li>
-                <li><a href="http://foundation.zurb.com/learn/case-washington-post.html">Case Studies</a></li>
-                <li><a href="http://foundation.zurb.com/learn/website-examples.html">Website Examples</a></li>
-                <li><a href="http://foundation.zurb.com/learn/video-started-with-foundation.html">Videos</a></li>
-                <li><a href="http://foundation.zurb.com/learn/training.html">Training</a></li>
-                <li><a href="http://foundation.zurb.com/learn/about.html">About</a></li>
-              </ul>
+            <li>
+              <a href="shows.html" class="">Shows</a>
             </li>
             <li class="has-dropdown not-click">
               <a href="discografia.html" class="">Discografia</a>
               <ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li>
-                <li><a href="http://foundation.zurb.com/templates.html">Add-ons</a></li>
-                <li><a href="http://foundation.zurb.com/docs">Docs</a></li>
-                <li><a href="http://foundation.zurb.com/develop/download.html">Download</a></li>
-                <li><a href="http://foundation.zurb.com/develop/contribute.html">Contribute</a></li>
-                <li><a href="http://foundation.zurb.com/develop/tools.html">Tools</a></li>
+                <li><a href="http://foundation.zurb.com/templates.html">Albums</a></li>
+                <li><a href="http://foundation.zurb.com/docs">Singles</a></li>
               </ul>
             </li>
             <li class="has-dropdown not-click">
               <a href="videos.html" class="">Videos</a>
               <ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li>
-                <li><a href="http://foundation.zurb.com/templates.html">Add-ons</a></li>
-                <li><a href="http://foundation.zurb.com/docs">Docs</a></li>
-                <li><a href="http://foundation.zurb.com/develop/download.html">Download</a></li>
-                <li><a href="http://foundation.zurb.com/develop/contribute.html">Contribute</a></li>
-                <li><a href="http://foundation.zurb.com/develop/tools.html">Tools</a></li>
+                <li><a href="http://foundation.zurb.com/templates.html">Entrevistas</a></li>
+                <li><a href="http://foundation.zurb.com/docs">Clips</a></li>
+                <li><a href="http://foundation.zurb.com/develop/contribute.html">Video Blog</a></li>
               </ul>
             </li>
-            <li class="has-dropdown not-click">
+            <li>
               <a href="downloads.html" class="">Downloads</a>
-              <ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li>
-                <li><a href="http://foundation.zurb.com/support/support.html">Support Channels</a></li>
-                <li><a href="http://foundation.zurb.com/forum">Foundation Forum</a></li>
-                <li><a href="http://foundation.zurb.com/support/images-and-badges.html">Images &amp; Badges</a></li>
-              </ul>
             </li>
             <li>
               <a href="biografia.html" class="">Biografia</a>
@@ -74,11 +56,18 @@
 
       {{ content }}
 
+      <div id="footer">
+        <div class="sc-player">
+          <a href="http://soundcloud.com/rodrigobueno">My dub track</a>
+        </div>
+      </div>
 
-      <div id="soundcloud-player"></div>
-
+       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
       <script type="text/javascript" src="js/vendor/modernizr.min.js"></script>
       <script src="http://connect.soundcloud.com/sdk.js"></script>
+      <script type="text/javascript" src="../js/soundcloud.player.api.js"></script>
+      <script type="text/javascript" src="../js/sc-player.js"></script>
+  
       <script type="text/javascript" src="js/soundcloud.js"></script>
     </body>
 </html>

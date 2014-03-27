@@ -1,10 +1,14 @@
 body{
   background-image: url('../img/background.png');
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  width: 100%;
 }
 
+p{
+	color: white;
+}
 
 #soundcloud-player{
 	background-color:black;
