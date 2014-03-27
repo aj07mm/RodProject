@@ -10,7 +10,7 @@ SC.stream("/rodrigobueno/loveee", function(tracks){
 SC.oEmbed("http://soundcloud.com/rodrigobueno", {
 	color: "ff0066",
 	maxwidth: '600px',
-	maxheight: '150px',
+	maxheight: '100px',
 	show_comments: 'true',
 	iframe: 'true'
 },document.getElementById("soundcloud-player"));

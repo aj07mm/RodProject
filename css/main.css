@@ -4,3 +4,13 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+
+#soundcloud-player{
+	background-color:black;
+	height: 100px;
+	width: 600px;
+	position:fixed;
+	right: 3%;
+	bottom: 5%;
+}
