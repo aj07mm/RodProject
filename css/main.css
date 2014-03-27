@@ -14,3 +14,17 @@ body{
 	right: 3%;
 	bottom: 5%;
 }
+
+#rod-kid{
+	width: 234px;
+	float: left;
+	margin-right: 33px;
+	border: 1px solid;
+}
+
+#rod-dre{
+	width: 259px;
+	float: right;
+	margin-left: 33px;
+	border: 1px solid;
+}
