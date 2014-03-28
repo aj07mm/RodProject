@@ -25,7 +25,7 @@
 .sc-scrubber .sc-time-span img {
   height: 80px;
   width: 800px;
-  background-color: red;
+  background-color: black;
 }
 
 .sc-scrubber .sc-buffer, .sc-scrubber .sc-played {
@@ -85,7 +85,7 @@
 }
 
 .sc-player ol.sc-trackslist li.active a {
-  color: red;
+  color: black;
 }
 
 .sc-track-duration {
