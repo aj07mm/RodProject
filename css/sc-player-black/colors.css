@@ -1,6 +1,6 @@
 .sc-player {
   font: 12px arial, sans-serif;
-  background-color: white;
+  background-color: #eeeae7;
   color: #333;
   font-size: 0.6em;
   line-height: 1.6em;
@@ -19,7 +19,7 @@
 }
 
 .sc-scrubber .sc-time-span {
-  background-color: #fff;
+  background-color: #eeeae7;
 }
 
 .sc-scrubber .sc-time-span img {
@@ -29,7 +29,7 @@
 }
 
 .sc-scrubber .sc-buffer, .sc-scrubber .sc-played {
-  background-color: #fff;
+  background-color: #eeeae7;
   opacity: 0.4;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .sc-scrubber .sc-time-indicators{
-  background: #fff;
+  background: #eeeae7;
   color: red;
   padding: 4px;
 }
@@ -79,7 +79,7 @@
 }
 
 .sc-player ol.sc-trackslist li.active, .sc-player ol.sc-trackslist li:hover {
-  background-color: #fff;
+  background-color: #eeeae7;
   padding: 5px;
   color: red;
 }
@@ -99,12 +99,12 @@
 /* Track info*/
 
 .sc-player .sc-info{
-  background: #fff;
+  background: #eeeae7;
   opacity: 0.9;
 }
 
 .sc-player .sc-info-toggle{
-  background: #fff;
+  background: #eeeae7;
   color: #003399;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -120,7 +120,7 @@
 
 .sc-player .sc-info-close{
   background: #003399;
-  color: #fff;
+  color: #eeeae7;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   padding: 2px 4px;

@@ -5,3 +5,11 @@ body{
   background-attachment: fixed;
   width: 100%;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    float: right;
+    width: 100%;
+}

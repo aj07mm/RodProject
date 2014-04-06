@@ -5,3 +5,19 @@ body{
   background-attachment: fixed;
   width: 100%;
 }
+
+.agenda-shows{
+	background-color: black;
+	float: left;
+	margin: 50px 0px 0px 50px;
+	border: 2px solid #551101;
+	color: white;
+	padding: 10px;
+}
+	.agenda-shows li{
+		font-size: 14px;
+	}
+
+.custom-list-class{
+	list-style-type: none;
+}
